@@ -19,9 +19,7 @@ The Domain Name Generator is a Python script that helps you generate domain name
 
 2. Install the required dependencies from the `requirements.txt` file using the following command:
 
-   ```bash
    pip install -r requirements.txt
-   ```
 
 3. Create a .env file in the root directory of your project and add the following lines:
 
@@ -34,11 +32,9 @@ Replace your_organization_name with your OpenAI organization name and your_api_k
 
 ## Usage
 
-    Run the script using the following command:
+Run the script using the following command:
 
-    ```bash
     python domain_name_generator.py
-    ```
 
 The script will interactively prompt you for input on domain name preferences, business description, domain length constraints, included words, and TLDs to check.
 
@@ -46,9 +42,7 @@ After providing the necessary input, the script will generate a list of domain n
 
 To rerun the script with the same inputs as before, use the following command:
 
-    ```bash
     python domain_name_generator.py --rerun
-    ```
 
 ## Contributions
 
